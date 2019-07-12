@@ -1,0 +1,23 @@
+{
+  "name": "restapisnode",
+  "version": "1.0.0",
+  "description": "Aprendiendo a Crear REST APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "Juan De la torre",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.21",
+    "multer": "^1.4.1",
+    "shortid": "^2.2.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
